@@ -1,0 +1,18 @@
+{
+  "name": "sypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "headed": "npx cypress run --headed",
+    "chrome": "npx cypress run --headed --browser chrome",
+    "headless": "npx cypress run --headless",
+    "edge": "npx cypress run --headed --browser edge"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.7.1"
+  }
+}

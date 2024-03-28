@@ -1,13 +1,13 @@
 {
-  "name": "sypress",
+  "name": "cypress",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "headed": "npx cypress run --headed",
-    "chrome": "npx cypress run --headed --browser chrome",
-    "headless": "npx cypress run --headless",
-    "edge": "npx cypress run --headed --browser edge"
+    "chrome_headed2": "cypress run --headed --browser chrome --config-file cypress_2.config.js",
+    "chrome_headless2": "cypress run --headless --browser chrome --config-file cypress_2.config.js",
+    "edge_headed": "cypress run --headed --browser edge --config-file cypress.config.js",
+    "edge_headless": "cypress run --headless --browser edge --config-file cypress.config.js"
   },
   "keywords": [],
   "author": "",
